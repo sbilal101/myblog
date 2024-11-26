@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul class="nav">
+   <li class="nav-cybersecurity"><a href="#">Cybersecurity</a></li>
+   <li class="nav-it"><a href="#">IT</a></li>
+   <li class="nav-coffee"><a href="#">Coffee</a></li>
+   <li class="nav-free-resources"><a href="#">Free Resources</a></li>
+   <li class="nav-topics"><a href="#">Topics</a></li>
+   <li class="nav-notes"><a href="#">Notes</a></li>
+   <li class="nav-have-i-helped-you"><a href="#">Have I Helped You?</a></li>
+</ul>
+</div>
+
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 

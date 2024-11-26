@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <title>Welcome</title>
+            <header class="head js-header" data-header="floating">
+                <div class="container wrapper">
+                    <div class="row">
+                        <div class="col-xs col-md-3 col-lg-2 flex">
+                            <a class="header__brand nav-current" href="">            <span class="header__title m-0 p-0">Bilal</span>
+                            </a>           </div>
+                                                   
+                    <div class="col-xs col-md-9 col-lg-10 is-rel flex items-center content-end">
+                        <nav class="header__menu items-center">
+                            <ul class="nav">
+                                <li class="nav-cybersecurity"><a href="#">Cybersecurity</a></li>
+                                <li class="nav-it"><a href="#">IT</a></li>
+                                <li class="nav-coffee"><a href="#">Coffee</a></li>
+                                <li class="nav-free-resources"><a href="#">Free Resources</a></li>
+                                <li class="nav-topics"><a href="#">Topics</a></li>
+                                <li class="nav-notes"><a href="#">Notes</a></li>
+                                <li class="nav-have-i-helped-you"><a href="#">Have I Helped You?</a></li>
+                            </ul>
+                         </nav>
+                            <span class="fw-600 m-l m-r text-acc">/</span>
+                                <a class="signup-link btn--primary radius-rounded" href="/signup/">Subscribe</a>
+
+                            <div class="member-menu js-member-menu">
+            <a class="signup-link" href="/signup/">      <i class="icon icon-arrow-up-right icon--sm">
+                <svg class="icon__svg">
+                    <use xlink:href="/assets/icons/icon-sprite.svg?v=73e39f49ef#arrow-up-right"></use>
+                  </svg>
+                  </i>Sign up
+            </a>
+            <a class="signup-link" href="/signin">      <i class="icon icon-login icon--sm">
+                <svg class ="icon__svg">
+                    <use xlink:href="/assets/icons/icon-sprite.svg?v=73e39f49ef#login"></use>
+                </svg>
+            </i>Sign in 
+           </a></div>
+                <button class="btn-menu-toggle menu__toggle js-menu-open"
+                  type="button" title="Menu" aria-label="Menu"
+                  <span></span>
+                  <span></span>
+        </button>
+                    </div>
+                    </div>
+                </div>
+                </header>
+                    <div class="menu jsmenu">
+                        <button class="search_toggle" title="search" aria-label="search" data-ghost-search>
+                            <i> class="icon icon-search icon--md" >
+                                <svg class="icon__svg>
+                                    <use xlink:href="/assets/icons/icon-sprite.svg?v=73e39f49ef#search"></use>
+                                </svg>    
+                            </i> </button>
+
+                        <button class="btn-menu-toggle menu__toggle is-active js-menu-close"
+                            type="button" title="Menu" aria-label="Menu">
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+             <nav class="menu__navigation">
+                <ul class="nav">
+                    <li class="nav-cybersecurity"><a href="https://benheater.com/cybersecurity/">Cybersecurity</a></li>
+                    <li class="nav-it"><a href="https://benheater.com/it/">IT</a></li>
+                    <li class="nav-coffee"><a href="https://benheater.com/coffee/">Coffee</a></li>
+                    <li class="nav-free-resources"><a href="https://benheater.com/free-training-resources-cybersec-and-it/">Free Resources</a></li>
+                    <li class="nav-topics"><a href="https://benheater.com/tags/">Topics</a></li>
+                    <li class="nav-notes"><a href="https://notes.benheater.com/">Notes</a></li>
+                     <li class="nav-have-i-helped-you"><a href="https://benheater.com/contribute/">Have I Helped You?</a></li>
+                </ul>
+
+                 <ul class="nav">
+                    <li class="nav-about-me"><a href="https://benheater.com/about/">About Me</a></li>
+                    <li class="nav-resume"><a href="https://benheater.com/resume/">Resume</a></li>
+                    <li class="nav-projects"><a href="https://benheater.com/projects/">Projects</a></li>
+                    <li class="nav-music"><a href="https://benheater.com/music/">Music</a></li>
+                    <li class="nav-github"><a href="https://github.com/0xBEN">GitHub</a></li>
+                    <li class="nav-linkedin"><a href="https://linkedin.com/in/benjaminheater">LinkedIn</a></li>
+                    <li class="nav-twitter"><a href="https://twitter.com/_0xBEN_">Twitter</a></li>
+                 </ul>
+             </nav>
+             
+             <span class="flex-1"></span>
+
+             <div class="menu__subscribe m-b">
+                <div class="bg-gradient radius flex flex-col p-lg color-white">
+                  <div class="menu_subscribe-content z-index-1">
+                    <span class="fw-700 text-16 m-b-xs is-block">Sign up to 0xBEN!</span>
+                    <p class="m-b opacity-070" id="menu-input-label">Cybersecurity and Coffee</p>
+                    <form class="subscribe-form radius-rounded" 
+                         data-members-form="signup" data-style="">
+                        <input data-members-email class="w-100" 
+                        type="email" autocomplete="email" placeholder="Your email address" 
+                        aria-labelledby="menu-input-label" required/> 
+                        <button class="btn btn--white" type="submit">
+                             <span>Subscribe</span>
+                         </button>
+                        <div class="msg-success">Great! Check your inbox and click the link.</div>
+                        <div class="msg-error">Sorry, something went wrong. Please try again.</div>
+                    </form>
+                </div>
+                </div>
+                <div class="text-09 m-t-sm m-b-sm text-center text-acc">
+                  Already have an account? <a href="/signin/">Sign in</a>
+                </div>
+              </div>
+        
+        <button class="menu__theme border-top js-theme-toggle">
+            <span class="menu__theme--system"><i class="icon icon-brightness-half icon--sm">
+            <svg class="icon__svg">
+                <use xlink:href="/assets/icons/icon-sprite.svg?v=73e39f49ef#brightness-half"></use>
+            </svg>
+            </i>System Theme</span>
+                <span class="menu__theme--light"><i class="icon icon-sun icon--sm">
+            <svg class="icon__svg">
+                <use xlink:href="/assets/icons/icon-sprite.svg?v=73e39f49ef#sun"></use>
+            </svg>
+            </i>Light Theme</span>
+            <span class="menu__theme--dark"><i class="icon icon-moon icon--sm">
+             <svg class="icon__svg">
+            <use xlink:href="/assets/icons/icon-sprite.svg?v=73e39f49ef#moon"></use>
+             </svg>
+             </i>Dark Theme</span>
+        </button>
+    </div>
+
+
+
+    <main class="main">
+
+        <div class="hero is-home flex flex-col" data-cover-image="true" data-image-style="background">
+
+            <div class="hero__content flex flex-col">
+                <h1 class="hero__title"></h1>
+                <div id="hero-input-label" class="hero__description text-acc m-b">
+
+                </div>
+
+            </div>
+
+            <figure class="hero__media">
+                <img class="lazyload hero__img"
+                    data-srcset="/content/images/size/w100/2024/11/pour-over-hero-bg.png 100w,
+                            /content/images/size/w300/2024/11/pour-over-hero-bg.png 300w,
+                            /content/images/size/w600/2024/11/pour-over-hero-bg.png 600w,
+                            /content/images/size/w1000/2024/11/pour-over-hero-bg.png 1000w,
+                            /content/images/size/w2000/2024/11/pour-over-hero-bg.png 2000w"
+                    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto"
+                    data-src="/content/images/size/w600/2024/11/pour-over-hero-bg.png"
+                    src="/content/images/size/w30/2024/11/pour-over-hero-bg.png"
+                    alt=""/>
+            </figure>
+        </div>
+            
+
+        </body>
+    </head>
+</html>
