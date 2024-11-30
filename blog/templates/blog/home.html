@@ -1,0 +1,94 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<h2>Blogs</h2>
+
+<br>
+    {% for post in posts %}
+    <section class="container wrapper section blog">
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.published_date }}</p>
+          <p>Some text</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h3>Post 2</h3>
+          <p>Some text</p>
+          <p>Some text</p>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <h3>Post 3</h3>
+          <p>Some text</p>
+          <p>Some text</p>
+        </div>
+      </div>
+        
+    </div>
+    <br><br>
+
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>Post 4</h3>
+          <p>Post 4</p>
+          <p>Some text</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h3>Post 5</h3>
+          <p>Some text</p>
+          <p>Some text</p>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <h3>Post 6</h3>
+          <p>Some text</p>
+          <p>Some text</p>
+        </div>
+      </div>
+    </section>
+
+    </div>
+    <br>
+{% endfor %}
+
+<section class="container wrapper section Projects">
+
+<h2>Projects</h2>
+<br>
+<div>
+  <div class="column">
+    <div class="card">
+      <h3>Post 5</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Post 6</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+{% endblock %}
